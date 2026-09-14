@@ -85,7 +85,7 @@ export function FinalCta() {
         </motion.span>
 
         <h2 className="mt-4 font-display text-[clamp(1.9rem,8.4vw,5.5rem)] uppercase leading-[0.95] text-paper sm:mt-6">
-          {["Start giving", "without paying"].map((line, li) => (
+          {["Start Giving", "Without Paying"].map((line, li) => (
             <span key={line} className="block overflow-hidden pb-1">
               <motion.span
                 className="block"
@@ -107,7 +107,7 @@ export function FinalCta() {
           transition={{ duration: 0.8, delay: 0.25, ease }}
           className="mx-auto mt-4 max-w-md px-2 text-sm leading-snug text-paper/90 sm:text-base md:text-lg"
         >
-          Free forever, off in one tap, and every donation reaches a verified charity without you spending one cent.
+          Free forever, off in one tap, and you support a verified charity of your choice without spending one cent.
         </motion.p>
 
         <motion.div

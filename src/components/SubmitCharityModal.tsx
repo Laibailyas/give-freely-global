@@ -82,11 +82,11 @@ export function SubmitCharityModal() {
             Start your own campaign
           </span>
           <DialogTitle className="mt-4 font-display text-[clamp(1.7rem,5vw,2.6rem)] uppercase leading-[0.95]">
-            Submit your local <span className="text-flare">charity</span>
+            Submit your <span className="text-flare">charity</span>
           </DialogTitle>
           <DialogDescription className="text-sm leading-relaxed text-ink/70">
-            Tell us about the cause. Once verified, you get your own Dotis link so your community can support the
-            campaign directly.
+            Tell us about your cause anywhere in the world. Once verified, you get your own Dotis link so your
+            community can support the campaign directly.
           </DialogDescription>
         </DialogHeader>
 

@@ -15,7 +15,11 @@ const FAQS = [
   },
   {
     q: "How much does it cost me?",
-    a: "Nothing. You don't pay a cent and you don't donate your own money. The value comes from enterprise clients paying for network access.",
+    a: "Nothing. Dotis is free forever, off in one tap, and you support a verified charity of your choice without spending one cent. The value comes from enterprise clients paying for network access.",
+  },
+  {
+    q: "Does Dotis work worldwide?",
+    a: "Yes. Dotis works for people everywhere, with verified charities and projects across the world. You can choose a global cause or submit a charity in your own community for verification.",
   },
   {
     q: "Where does the money actually go?",
@@ -30,8 +34,8 @@ const FAQS = [
     a: "Because we do not support big tech. We don't want to pay the companies that stand against our values, so Dotis is self-hosted (no Amazon) and distributed as an open-source download. No Google, no Apple, and no 30% cut taken out of donations. You download it straight from us, and the code is open for anyone to inspect.",
   },
   {
-    q: "Can I submit my own local charity or campaign?",
-    a: "Yes. Anyone can submit a local charity or start their own campaign. Once we verify the organisation you get your own Dotis link to share with your community. It's perfect for influencers, community leaders and local fundraisers.",
+    q: "Can I submit my own charity or campaign?",
+    a: "Yes. Anyone, anywhere in the world can submit a charity or start their own campaign. Once we verify the organisation you get your own Dotis link to share with your community. It's perfect for influencers, community leaders and local fundraisers.",
   },
   {
     q: "How are charities chosen?",

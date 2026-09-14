@@ -15,7 +15,7 @@ const STEPS = [
   },
   {
     title: ["We donate to", "verified charities"],
-    description: "The value you generate goes straight to vetted charities supporting food aid, disaster relief, and wildlife rescue.",
+    description: "Choose from verified charities and projects around the world. The value you generate supports the cause you choose.",
   },
 ] as const;
 

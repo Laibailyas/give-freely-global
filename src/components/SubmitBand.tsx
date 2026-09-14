@@ -25,11 +25,11 @@ export function SubmitBand() {
             Your cause, your campaign
           </span>
           <h2 className="mt-5 font-display text-[clamp(2rem,6.5vw,4.2rem)] uppercase leading-[0.92]">
-            Submit your local charity<br />
+            Submit your charity<br />
             <span className="text-flare">start your own campaign</span>
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-paper/75 md:text-lg">
-            Run a shelter, a food kitchen or a community fund? Send it to us. Once verified you get your own Dotis
+            Run a shelter, a food kitchen or a community fund anywhere in the world? Send it to us. Once verified you get your own Dotis
             link, so supporters, influencers and community leaders can back your campaign just by browsing.
           </p>
 

@@ -92,7 +92,7 @@ export function ChooseCause() {
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-ink/70 md:text-lg">
-            Dotis only pays verified charities. Pick your cause or submit your local charity for verification.
+            Explore verified charities and projects worldwide. Pick your cause or submit a charity from anywhere for verification.
           </p>
         </motion.div>
       </div>
@@ -232,7 +232,7 @@ export function ChooseCause() {
             className="rise-button group inline-flex shrink-0 items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-medium text-paper"
           >
             <span aria-hidden className="rise-fill rise-fill--flare" />
-            <span className="rise-label">Submit your local charity</span>
+            <span className="rise-label">Submit your charity</span>
             <ArrowUpRight className="rise-label h-4 w-4" />
           </button>
         </div>

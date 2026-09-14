@@ -15,13 +15,14 @@ import { Toaster } from "@/components/ui/sonner";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dotis | Let your feed, feed someone" },
-      { name: "description", content: "Share unused internet and generate donations for causes that need it most, at no cost to you." },
-      { property: "og:title", content: "Dotis | Let your feed, feed someone" },
-      { property: "og:description", content: "Turn unused bandwidth into donations for wildlife, disaster relief, and food aid." },
+      { title: "Dotis | Support Verified Charities Worldwide" },
+      { name: "description", content: "Free forever: support a verified charity of your choice worldwide without spending one cent. Turn Dotis off in one tap." },
+      { property: "og:title", content: "Dotis | Support Verified Charities Worldwide" },
+      { property: "og:description", content: "Support verified charities and projects worldwide without spending one cent." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
   component: Index,
 });
