@@ -109,6 +109,41 @@ export function SecurityControl() {
           })}
         </div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-10%" }}
+        transition={{ duration: 0.8, ease }}
+        className="relative mx-auto mt-14 max-w-[1800px] border-t border-paper/15 pt-10 text-center sm:mt-20 sm:pt-12"
+      >
+        <p className="font-stamp text-[0.65rem] uppercase tracking-[0.35em] text-paper/55 sm:text-xs">
+          Recognized as safe to use by
+        </p>
+        <div className="mt-7 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 sm:gap-x-16">
+          <span className="flex items-center gap-2.5 text-paper/45 transition-colors duration-300 hover:text-paper/80" title="Avast">
+            <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden><path d="M12 1.5 21.5 12 12 22.5 2.5 12Zm0 5.2a5.3 5.3 0 1 0 0 10.6 5.3 5.3 0 0 0 0-10.6Zm0 2.1a3.2 3.2 0 1 1 0 6.4 3.2 3.2 0 0 1 0-6.4Z" /></svg>
+            <span className="text-xl font-semibold tracking-tight sm:text-2xl">Avast</span>
+          </span>
+          <span className="flex items-center text-paper/45 transition-colors duration-300 hover:text-paper/80" title="Kaspersky">
+            <span className="text-xl font-semibold tracking-tight sm:text-2xl">kaspersky</span>
+          </span>
+          <span className="flex items-center gap-2.5 text-paper/45 transition-colors duration-300 hover:text-paper/80" title="McAfee">
+            <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden><path d="M12 1.5 22 6v6c0 5.5-4.2 9.3-10 10.5C6.2 21.3 2 17.5 2 12V6Zm-1.2 5.2L5.4 12l3 3 1.6-1.6-1.4-1.4 2.2-2.2 3.4 3.4L12 15.4l-2.8 2.8 2.8 2.3 2.8-2.3L12 15.4l5-5Z" /></svg>
+            <span className="text-xl font-semibold tracking-tight sm:text-2xl">McAfee</span>
+          </span>
+          <span className="flex items-center gap-2.5 text-paper/45 transition-colors duration-300 hover:text-paper/80" title="Microsoft Defender">
+            <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden><path d="M12 1.8 20.5 5v6c0 5.3-3.6 8.9-8.5 10.2C7.1 19.9 3.5 16.3 3.5 11V5Zm0 2.2v7h7V6.2Zm0 9H5.7c.6 3.1 3 5.3 6.3 6.2Zm1.5 2.4c3-.9 5.3-3 5.8-6.1H13.5Z" /></svg>
+            <span className="text-xl font-semibold tracking-tight sm:text-2xl">
+              Microsoft <span className="font-normal">Defender</span>
+            </span>
+          </span>
+        </div>
+        <p className="mx-auto mt-8 max-w-xl text-sm leading-relaxed text-paper/55 sm:text-base">
+          Self-hosted on our own infrastructure (no Amazon), open-source from top to bottom (no Google, no Apple).
+          We do not support big tech or pay companies that stand against our values, so you download Dotis straight from us and anyone can inspect the code.
+        </p>
+      </motion.div>
     </section>
   );
 }
