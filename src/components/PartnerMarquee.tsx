@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const partners = [
   "WildAid",
-  "Feeding America",
+  "World Food Programme",
   "IFAW",
   "The Nature Conservancy",
   "CARE",

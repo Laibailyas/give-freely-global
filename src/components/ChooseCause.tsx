@@ -31,7 +31,7 @@ const CAUSES = [
     image: foodImage,
     alt: "Volunteers preparing meals in a community kitchen",
     blurb: "Put warm meals on tables through community kitchens and trusted local food banks.",
-    charities: ["Feeding America", "OXFAM", "Action Against Hunger"],
+    charities: ["World Food Programme", "OXFAM", "Action Against Hunger"],
     unit: "meals served",
     perDollar: 8.5,
   },
@@ -92,7 +92,7 @@ export function ChooseCause() {
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-ink/70 md:text-lg">
-            Explore verified charities and projects worldwide. Pick your cause or submit a charity from anywhere for verification.
+            Explore global projects and verified charities. Pick your cause or submit a charity from anywhere for verification.
           </p>
         </motion.div>
       </div>

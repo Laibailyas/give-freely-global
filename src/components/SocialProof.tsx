@@ -23,7 +23,7 @@ const QUOTES = [
 ];
 
 const CHARITIES = [
-  { name: "Feeding America", region: "USA" },
+  { name: "World Food Programme", region: "Global" },
   { name: "charity: water", region: "Global" },
   { name: "WildAid", region: "Asia & Africa" },
   { name: "Direct Relief", region: "Global" },
